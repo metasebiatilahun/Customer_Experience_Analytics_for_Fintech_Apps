@@ -1,12 +1,11 @@
 # Customer_Experience_Analytics_for_Fintech_Apps
+Project Goal
 
-Customer Experience Analytics for Fintech Apps
-🎯 Project Goal
 The primary goal of this project is to collect, preprocess, and analyze customer reviews for major fintech applications (mobile banking apps) in Ethiopia to derive insights on user experience, identify key pain points, and understand overall customer sentiment.
 
 This repository contains the full data pipeline, from raw data collection to initial exploratory data analysis (EDA).
 
-🚀 Repository Structure
+Repository Structure
 The project is structured to separate scripts, raw data, and processed data.
 
 
