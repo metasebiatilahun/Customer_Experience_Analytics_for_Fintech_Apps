@@ -50,7 +50,7 @@ class PlayStoreScraper:
             print(f"Error getting app info for {app_id}: {str(e)}")
             return None
 
-    def scrape_reviews(self, app_id, count=400):
+    def scrape_reviews(self, app_id, count=4000):
         """
         Scrape reviews for a specific app.
         Attempts to fetch 'count' number of reviews, sorted by newest first.

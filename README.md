@@ -80,3 +80,30 @@ matplotlib
 seaborn
 
 Custom modules: Preprocessing and Scraper
+
+
+# PostgreSQL Storage for Cleaned Review Data
+
+## Database: bank_reviews
+
+### Tables:
+1. **banks**
+   - bank_id (PK)
+   - bank_name
+   - app_name
+
+2. **reviews**
+   - review_id (PK)
+   - bank_id (FK → banks.bank_id)
+   - review_text
+   - rating
+   - review_date
+   - sentiment_label
+   - sentiment_score
+   - source
+
+### How to Run
+1. Install PostgreSQL
+2. Create database:
+   ```sql
+   CREATE DATABASE bank_reviews;
